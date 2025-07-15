@@ -4,11 +4,12 @@ import os
 # Production settings
 DEBUG = False
 
-ALLOWED_HOSTS = [
-    "shubhanan-sharma.up.railway.app",
-    "localhost",
-    "127.0.0.1",
-]
+# ALLOWED_HOSTS = [
+#     "shubhanan-sharma.up.railway.app",
+#     "localhost",
+#     "127.0.0.1",
+# ]
+ALLOWED_HOSTS = ['*']
 
 # Security
 SECRET_KEY = os.environ.get(
